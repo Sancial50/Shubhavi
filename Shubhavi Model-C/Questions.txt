@@ -1,0 +1,19 @@
+hi
+how are you
+what's your name
+who is your inventor
+what is the time
+what is today's date
+open notepad
+open chrome
+shutdown
+restart
+lock
+search wikipedia for India
+calculate 12 plus 5
+what is sin(pi/2)
+search AI future
+mute
+unmute
+stop
+exit

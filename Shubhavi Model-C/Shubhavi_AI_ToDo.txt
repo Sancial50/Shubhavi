@@ -1,0 +1,50 @@
+
+✅ To-Do Setup for Running Shubhavi AI ✅
+
+1. Python Version
+- Make sure Python 3.9 or above is installed.
+- To check:
+  python --version
+- Download if needed: https://www.python.org/downloads/
+
+2. Required Python Libraries (Run these in CMD/Terminal)
+pip install pyttsx3
+pip install speechrecognition
+pip install wikipedia
+pip install python-dotenv
+pip install openai
+pip install pyautogui
+
+3. Additional Setup
+- Ensure your microphone is working (for voice input).
+- Create a .env file in the same folder as your .py file.
+- Inside .env, paste your OpenAI API key like this:
+  OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+4. Optional (But Recommended)
+- If using Spotify or Chrome, ensure they are installed in the default locations:
+  - Spotify Web Version will open in browser; app-based control needs extra setup.
+  - Chrome path checked in code: 
+    C:\Program Files\Google\Chrome\Application\chrome.exe
+
+5. How to Run
+Navigate to your .py file location in CMD:
+cd path\to\your\shubhavi\folder
+python your_shubhavi_file.py
+
+6. Test Example
+- You can type:
+  open youtube search Python tutorial
+- Or say "Hi", then speak a command.
+
+7. Troubleshooting
+- If pyttsx3 throws error, try:
+  pip install pywin32
+
+- For speech recognition to work, ensure:
+  - pyaudio is properly installed.
+  - On Windows, if pip install pyaudio fails, use:
+    pip install pipwin
+    pipwin install pyaudio
+
+✅ All Set! Your Shubhavi AI will be ready after completing these steps.
